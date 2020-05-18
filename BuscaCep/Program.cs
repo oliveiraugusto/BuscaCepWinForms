@@ -16,7 +16,7 @@ namespace BuscaCep
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormXML());
+            Application.Run(new FormJSON());
         }
     }
 }
