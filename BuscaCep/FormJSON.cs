@@ -36,7 +36,7 @@ namespace BuscaCep
 
                     var cliente = new HttpClient();
                     var resposta = await cliente.GetStringAsync($"https://viacep.com.br/ws/{maskedTextBoxCEP.Text}/json/");                
-                    var dados = JsonConvert.DeserializeObject<Classes.JsonCEP>(resposta);
+                    var dados = JsonConvert.DeserializeObject<JsonCEP>(resposta);
 
                     if (string.IsNullOrEmpty(dados.cep))
                     {

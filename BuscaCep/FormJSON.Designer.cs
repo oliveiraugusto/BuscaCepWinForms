@@ -195,7 +195,7 @@
             this.buttonBuscarCEP.UseVisualStyleBackColor = true;
             this.buttonBuscarCEP.Click += new System.EventHandler(this.buttonBuscarCEP_Click);
             // 
-            // FormJSON
+            // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -207,7 +207,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "FormJSON";
+            this.Name = "FormPrincipal";
             this.Text = "BuscaCEP - Metodo 2 (JSON)";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBoxInformacoes.ResumeLayout(false);
